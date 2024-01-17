@@ -30,7 +30,7 @@ body {
     border-radius: 50%;
     margin: 0 auto 20px;
     background-color: #ddd;
-    background-image: url('/profile_pic.jpg');
+    background-image: url('./profile_pic.jpg');
     background-size: contain;
     background-position: center;
     overflow: hidden; /* Add this line to hide the image outside the border radius */
