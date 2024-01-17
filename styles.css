@@ -25,22 +25,23 @@ body {
 }
 
 .profile-photo {
-    width: 250px; /* Adjust the width as desired */
-    height: 250px; /* Adjust the height as desired */
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin: 0 auto 20px;
     background-color: #ddd;
-    background-image: url('profile_pic.jpg');
+    background-image: url('./profile_pic.jpg');
     background-size: contain;
     background-position: center;
-    overflow: hidden; /* Add this line to hide the image outside the border radius */
+    overflow: hidden;
 }
 
 .contact-info {
     text-align: center;
 }
 
-.contact-info h1, .contact-info p {
+.contact-info h1,
+.contact-info p {
     margin: 0;
     padding: 10px 0;
 }
